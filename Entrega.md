@@ -9,29 +9,26 @@ Explorar las vulnerabilidades por Inyección SQL (SQLi) y aplicar técnicas de m
 
 Se utilizó un entorno multicontenedor Docker:
 
-```bash
+
 docker-compose up -d
-```
 
-- Servidor Apache
-- MySQL 8
-- phpMyAdmin
-- Archivos de la web ubicados en `www/SQLi/`
-
----
+![](images/imagen1.png)
 
 ## 🗃️ Base de Datos
-
+![](images/imagen2.png)
 Base de datos creada: `SQLi`  
 Tabla: `usuarios`
 
+![](images/imagen3.png)
 ```sql
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario VARCHAR(50) NOT NULL,
     contrasenya VARCHAR(100) NOT NULL
 );
+![](images/imagen4.png)
 
+![](images/imagen5.png)
 INSERT INTO usuarios (usuario, contrasenya) VALUES ('admin', '1234'), ('usuario', 'password');
 ```
 
@@ -50,7 +47,7 @@ $query = "SELECT * FROM usuarios WHERE usuario = '$username' AND contrasenya = '
 ```
 
 🧪 Captura:
-![login1](img/sqli20.png)
+![login1](images/sqli20.png)
 
 ---
 
