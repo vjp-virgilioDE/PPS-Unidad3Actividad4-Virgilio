@@ -92,9 +92,7 @@ $stmt = $conn->prepare("SELECT id, usuario, contrasenya FROM usuarios WHERE usua
 
 ---
 
-## 📸 Capturas
 
-📁 Todas las capturas están en la carpeta `img/`.
 
 ---
 
@@ -103,9 +101,3 @@ $stmt = $conn->prepare("SELECT id, usuario, contrasenya FROM usuarios WHERE usua
 Repositorio GitHub:  
 👉 [https://github.com/tu-usuario/PPS-Unidad3Actividad4-Virgilio-Dominguez](https://github.com/tu-usuario/PPS-Unidad3Actividad4-Virgilio-Dominguez)
 
----
-
-## 👨‍💻 Autor
-
-**Virgilio Domínguez**  
-PPS - Unidad 3 - Actividad 4
