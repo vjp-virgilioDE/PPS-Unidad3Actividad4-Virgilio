@@ -88,3 +88,16 @@ $stmt = $conn->prepare("SELECT id, usuario, contrasenya FROM usuarios WHERE usua
 - Recomendación de usar sesiones (`session_start()`) en producción
 
 ---
+<<<<<<< HEAD
+=======
+
+
+
+---
+
+## 📤 Entrega
+
+Repositorio GitHub:  
+👉 [https://github.com/tu-usuario/PPS-Unidad3Actividad4-Virgilio-Dominguez](https://github.com/tu-usuario/PPS-Unidad3Actividad4-Virgilio-Dominguez)
+
+>>>>>>> refs/remotes/origin/main
