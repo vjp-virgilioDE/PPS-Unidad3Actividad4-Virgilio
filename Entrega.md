@@ -62,7 +62,7 @@ $username = addslashes($_POST["username"]);
 🔴 Aún no es 100% seguro.
 
 🧪 Captura:
-![login2](img/sqli24.png)
+![](images/sqli24.png)
 
 ---
 
@@ -76,7 +76,7 @@ $stmt = $conn->prepare("SELECT id, usuario, contrasenya FROM usuarios WHERE usua
 ```
 
 🧪 Captura de éxito:
-![login3](img/sqli25.png)
+![](images/sqli25.png)
 
 ---
 
